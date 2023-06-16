@@ -13,5 +13,5 @@ class Post(Base):
     is_active = Column(Boolean, default=True)
     title = Column(String)
     content = Column(String)
-    owner_id = Column(Integer, ForeignKey("user.uid"))
+    owner_id = Column(Integer, ForeignKey("users.uid"))
     owner = relationship("User", back_populates="post")
