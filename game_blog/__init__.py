@@ -1,15 +1,13 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
-from game_blog import users, posts
-from game_blog.main.routes import router
+from .apps import usersapp
+from game_blog.apps.mainapp import router
 
 from .database import engine
-from .users import models
-from .posts import models
 
-users.models.Base.metadata.create_all(bind=engine)
-posts.models.Base.metadata.create_all(bind=engine)
+game_blog.apps.users.models.Base.metadata.create_all(bind=engine)
+game_blog.apps.posts.models.Base.metadata.create_all(bind=engine)
 
 
 def create_app(debug=True):
