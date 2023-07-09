@@ -4,7 +4,7 @@ import datetime
 from sqlalchemy import Boolean, Column, String, DateTime
 from sqlalchemy.orm import relationship
 from sqlalchemy_utils import EmailType, UUIDType
-from ...database import Base
+from db.base_class import Base
 
 
 class User(Base):
