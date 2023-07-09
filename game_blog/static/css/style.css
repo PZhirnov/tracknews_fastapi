@@ -1865,3 +1865,54 @@ body.has-no-comments .comment-respond {
   color: #FFFFFF;
   font-size: 100px;
 }
+
+.bg-game {
+  background-image: url('/static/images/blog/metal-gear-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-text {
+	color: #FFFFFF;
+	text-shadow:
+		-0   -4px 0   #2B1C66,
+		 0   -4px 0   #2B1C66,
+		-0    4px 0   #2B1C66,
+		 0    4px 0   #2B1C66,
+		-4px -0   0   #2B1C66,
+		 4px -0   0   #2B1C66,
+		-4px  0   0   #2B1C66,
+		 4px  0   0   #2B1C66,
+		-1px -4px 0   #2B1C66,
+		 1px -4px 0   #2B1C66,
+		-1px  4px 0   #2B1C66,
+		 1px  4px 0   #2B1C66,
+		-4px -1px 0   #2B1C66,
+		 4px -1px 0   #2B1C66,
+		-4px  1px 0   #2B1C66,
+		 4px  1px 0   #2B1C66,
+		-2px -4px 0   #2B1C66,
+		 2px -4px 0   #2B1C66,
+		-2px  4px 0   #2B1C66,
+		 2px  4px 0   #2B1C66,
+		-4px -2px 0   #2B1C66,
+		 4px -2px 0   #2B1C66,
+		-4px  2px 0   #2B1C66,
+		 4px  2px 0   #2B1C66,
+		-3px -4px 0   #2B1C66,
+		 3px -4px 0   #2B1C66,
+		-3px  4px 0   #2B1C66,
+		 3px  4px 0   #2B1C66,
+		-4px -3px 0   #2B1C66,
+		 4px -3px 0   #2B1C66,
+		-4px  3px 0   #2B1C66,
+		 4px  3px 0   #2B1C66,
+		-4px -4px 0   #2B1C66,
+		 4px -4px 0   #2B1C66,
+		-4px  4px 0   #2B1C66,
+		 4px  4px 0   #2B1C66,
+		-4px -4px 0   #2B1C66,
+		 4px -4px 0   #2B1C66,
+		-4px  4px 0   #2B1C66,
+		 4px  4px 0   #2B1C66;
+}
