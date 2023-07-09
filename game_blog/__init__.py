@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
-from .apps import usersapp
+from .apps import authapp
 from game_blog.apps.mainapp import router
 
 from .database import engine
