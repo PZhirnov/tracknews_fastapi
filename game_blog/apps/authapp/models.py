@@ -8,7 +8,6 @@ from db.base_class import Base
 
 
 class User(Base):
-    __tablename__ = "users"
     uid = Column(UUIDType, default=uuid4, primary_key=True)
     created_date = Column(DateTime, default=datetime.datetime.utcnow)
     email = Column(EmailType)
